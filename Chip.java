@@ -23,5 +23,17 @@ public class Chip {
 		this.localColocacao = localColocacao;
 		this.status = status;
 	}
+	public long getId() {
+		return id;
+	}
+	public String getCodigo() {
+		return codigo;
+	}
+	public String getLocalColocacao() {
+		return localColocacao;
+	}
+	public String getStatus() {
+		return status;
+	}
 	
 }
