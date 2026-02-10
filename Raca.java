@@ -21,4 +21,13 @@ public class Raca {
 		this.nome = nome;
 		this.origem = origem;
 	}
+	public long getId() {
+		return id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public String getOrigem() {
+		return origem;
+	}
 }

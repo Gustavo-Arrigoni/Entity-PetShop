@@ -22,5 +22,14 @@ public class Tutor {
 		this.dataNasc = dataNasc;
 		
 	}
+	public long getId() {
+		return id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public String getDataNasc() {
+		return dataNasc;
+	}
 	
 }

@@ -21,5 +21,14 @@ public class Tipo {
 		this.nome = nome;
 		this.descricao = descricao;
 	}
+	public long getId() {
+		return id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
 	
 }

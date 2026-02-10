@@ -25,5 +25,20 @@ public class Endereco {
 		this.bairro = bairro;
 		this.cidade = cidade;
 	}
+	public long getId() {
+		return id;
+	}
+	public String getRua() {
+		return rua;
+	}
+	public int getNumero() {
+		return numero;
+	}
+	public String getBairro() {
+		return bairro;
+	}
+	public String getCidade() {
+		return cidade;
+	}
 	
 }

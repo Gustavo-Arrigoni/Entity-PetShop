@@ -25,4 +25,20 @@ public class Vacinacao {
 		this.periodo = periodo;
 	
 	}
+
+	public long getId() {
+		return id;
+	}
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public String getValidade() {
+		return validade;
+	}
+
+	public String getPeriodo() {
+		return periodo;
+	}
 }

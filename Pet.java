@@ -24,4 +24,16 @@ public class Pet {
 		this.tamanho = tamanho;
 		this.dataNasc = dataNasc;
 	}
+	public long getId() {
+		return id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public double getTamanho() {
+		return tamanho;
+	}
+	public String getDataNasc() {
+		return dataNasc;
+	}
 }
